@@ -1,0 +1,12 @@
+{
+  "name": "transcoder",
+  "version": "1.0.0",
+  "description": "trancode videos ",
+  "license": "ISC",
+  "author": "phantomsoldierking",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
