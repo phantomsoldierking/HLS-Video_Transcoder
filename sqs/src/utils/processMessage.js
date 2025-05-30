@@ -4,7 +4,7 @@ import { markVideoAsProcessing } from "../lib/redis.js";
 const cluster = "hls";
 const taskDefinition = "hls-td";
 const containerName = "hls-container";
-const subnets = [];                   // add subnets here
+const subnets = [];                   // add subnets here if different? or what to do
 
 export const processMessage = async (message) => {
   try {
