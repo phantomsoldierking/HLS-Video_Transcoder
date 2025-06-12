@@ -8,8 +8,8 @@ const { exec } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-const s3Client = new S3Client({ region: "ap-south-1" });   //us-east-1
-const ecsClient = new ECSClient({ region: "ap-south-1" });
+const s3Client = new S3Client({ region: "us-east-1" });   //us-east-1
+const ecsClient = new ECSClient({ region: "us-east-1" });
 
 const downloadFromS3 = async (bucket, key, downloadPath) => {
   const params = {

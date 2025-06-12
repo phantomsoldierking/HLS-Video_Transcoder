@@ -3,8 +3,8 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import dotenv from "dotenv";
 dotenv.config();
 
-export const bucketName = "hls.shubhamvscode";
-export const region = "ap-south-1";
+export const bucketName = "hls.phantomsoldierking";
+export const region = "us-east-1";
 
 const s3Client = new S3Client({
   region,
